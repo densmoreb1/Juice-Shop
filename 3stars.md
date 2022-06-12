@@ -32,6 +32,9 @@
 - change to PUT /rest/products/6/reviews
 - change or add {"id":"6G3HpeSPsHZvoq8s7","message":"I bought it, would buy again."}
 
+## GDPR Data Erasure
+- login with chris.pike@juice-sh.op'--
+
 ## API Only XSS
 - login as admin
 - capture with burp to find the request to an api with the bearer token
