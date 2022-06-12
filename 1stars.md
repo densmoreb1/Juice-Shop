@@ -31,6 +31,7 @@
 ## Outdated whitelis
 - find blockchain in inspecter on main.js
 - paste in url
+- /redirect?to=https://explorer.dash.org/address/Xr556RzuwX6hg5EGpkybbv5RanJoZN17kW
 
 ## Privacy Policy
 - sign in and read it
