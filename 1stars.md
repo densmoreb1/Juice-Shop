@@ -1,34 +1,39 @@
 ## Bonus Payload
 - Copy and paste in the search
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-## Access Confidential Document
-- Go to "About Us" 
-- Capture request with burp for link
-- Send to repeater and find "acqusitions"
+## Confidential Document
+- go to "About Us" 
+- capture request
+- navigate to /ftp/
+- download acquisitions
 
 ## DOM XSS 
-- Copy and Paste in the search
-
-<iframe src="javascript:alert(`xss`)">
+- copy and paste into search
 
 ## Error Handling
-- Burp suite 
-- Intercept /rest/products/1
-- Change to /rest/products/-1
+- intercept /rest/products/1/reviews
+- change to /rest/products/-1
+
+## Exposed Metrics
+- can find with gobuster
+- navigate to /metrics
 
 ## Bjorrn Photo
-- Change '#' to '%23' in the img tag to show picture
+- navigate to photo wall
+- inspect the image, img tag
+- the # needs to be encoded to html
+- change the # to %23
 
-## Outdated whitelis
-- find blockchain in inspecter on main.js
+## Outdated Allowlist
+- find blockchain on main.js
+- /redirect?to=https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
 - paste in url
 
 ## Privacy Policy
-- sign in and read it
+- sign in or make account
+- read privacy policy
 
-## Repetitive Registration 
+## Repetitive Registration
 - create a user with a different password in the two slots
 
 ## Give Zero Star rating
