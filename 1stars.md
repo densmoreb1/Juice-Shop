@@ -7,6 +7,10 @@
 - navigate to /ftp/
 - download acquisitions
 
+## Bully Chatbot
+- Brute force 
+- Spam "coupon"
+
 ## DOM XSS 
 - copy and paste into search
 
@@ -28,6 +32,7 @@
 - find blockchain on main.js
 - /redirect?to=https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
 - paste in url
+- /redirect?to=https://explorer.dash.org/address/Xr556RzuwX6hg5EGpkybbv5RanJoZN17kW
 
 ## Privacy Policy
 - sign in or make account
