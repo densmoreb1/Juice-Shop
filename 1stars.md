@@ -21,6 +21,9 @@
 - Burp suite 
 - Intercept /rest/products/1
 - Change to /rest/products/-1
+  
+## Exposed Metrics
+- /metrics
 
 ## Bjorrn Photo
 - Change '#' to '%23' in the img tag to show picture
