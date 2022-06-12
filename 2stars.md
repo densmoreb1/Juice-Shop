@@ -23,6 +23,20 @@
 - go to customer feedback
 - enter MD5
 
+## Reflected XSS
+-  paste /#/track-result?id=<iframe%20src%3D"javascript:alert(%60xss%60)">
+
+## Meta Geo Stalking
+- user: john@juice-sh.op
+- security question answer: Daniel Boone National Forest
+
+## Security Policy
+- /.well-known/security.txt
+
+## Visual Geo Stalking 
+- user: emma@juice-sh.op
+- security question answer: ITsec
+
 ## View Basket
 - login
 - view basket
