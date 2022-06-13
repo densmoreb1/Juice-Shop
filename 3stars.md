@@ -72,6 +72,16 @@
 - jim@juice-sh.op
 - Samuel
 
+## Upload Size
+- capture a file upload 
+- replace the stuff with a larger file
+
+## Upload Type
+- capture a file upload
+- change file extension to jpg
+- also another place to jpeg
+- replace the stuff with jpeg binary
+
 ## API Only XSS
 - login as admin
 - capture with burp to find the request to an api with the bearer token
@@ -86,5 +96,4 @@
 - change email to a script
 - login to admin
 - go to /administration
-
 
