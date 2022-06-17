@@ -11,7 +11,7 @@ mycookie = {'balancer': 's%3At-compsci.03QVAHQ9DZZR8L43CTX3v9U6hio80nLqp5rIDTyqW
 
 hashids = Hashids(salt="this is my salt", min_length=60,
                   alphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
-# starts at chalange 100 down to 0
+# starts at challange 100 down to 0
 for i in range(100, 0, -1):
     id = hashids.encode(i)
     # print(id)
