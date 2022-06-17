@@ -29,7 +29,7 @@
 ## GDPR Data Theft
 - create an account similar to admin or someone else
 - like odmin@juice-sh.op
-- login and view the data export  
+- login and view the data export 
 
 ## Leaked Unsafe Product
 - capture /rest/products/search
